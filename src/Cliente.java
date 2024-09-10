@@ -1,7 +1,12 @@
 
+/**
+ * Classe que representa um cliente do banco.
+ * Contém informações sobre o nome do cliente.
+ */
+
 public class Cliente {
 
-	private String nome;
+	private String nome; // Nome do cliente
 
 	public String getNome() {
 		return nome;
